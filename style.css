@@ -14,6 +14,7 @@
 }
 
 body {
+    zoom: 0.77;
     font-family: Arial, sans-serif;
     color: white;
 }
@@ -49,7 +50,7 @@ body {
 
 .petition img {
     width: 500px;
-    height: 100vh;
+    height: 80vh;
 }
 
 .president-comments {
@@ -151,4 +152,4 @@ span {
     background-color: black;
     color: white;
     font-size:xx-large;
-}
+} /* ovo je 70% ja 30% chatgpt */
