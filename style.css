@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'F1Reg';
+    src: url('Formula1-Regular_web_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    background-color: #1b1a1a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.content {
+    width: 500px;
+}
+
+.petition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.petition::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 150px;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.9) 30%,
+        rgba(0, 0, 0, 0.5) 70%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    pointer-events: none;
+}
+
+.petition img {
+    width: 500px;
+    height: 100vh;
+}
+
+.president-comments {
+    width: 100%;
+    background: black;
+}
+
+.grbin-nebitan-komentar,
+.crnijev-sigma-komentar {
+    position: relative;
+    width: 100%;
+    background: black;
+    padding: 20px 0;
+}
+
+/* .grbin-nebitan-komentar::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 3px;
+    height: 70px;
+    border-radius: 9999px;
+}
+
+.crnijev-sigma-komentar::before {
+    content: "33957b 3965f7";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 3px;
+    height: 70px;
+    border-radius: 9999px;
+}
+*/
+.grbin-nebitan-komentar img,
+.crnijev-sigma-komentar img {
+    display: block;
+    width: 450px;
+    height: auto;
+    margin-left: 10px;
+    background: black;
+}
+
+
+.votes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+.votes button {
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'F1Reg', Arial, sans-serif;
+    font-weight: bold;
+}
+.votes .grba {
+    border: 5px solid #3965f7;
+    border-radius: 30px;
+    color: #3965f7;
+}
+.votes .crni {
+    border: 5px solid #33957b;
+    border-radius: 30px;
+    color: #33957b;
+}
+.votes .grba:hover {
+    background-color: #3965f7;
+    color: white;
+}
+.votes .crni:hover {
+    background-color: #33957b;
+    color: white;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+.counter .grba-counter,
+.counter .crni-counter {
+    font-family: 'F1Reg', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-size:xx-large;
+}
+span {
+    font-family: 'F1Reg', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-size:xx-large;
+}
