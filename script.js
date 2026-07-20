@@ -46,4 +46,4 @@ document.querySelector(".crni").addEventListener("click", async () => {
         .eq("id", 1);
 
     loadVotes();
-});
+}); // ovo je sve chatgpt
