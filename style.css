@@ -20,7 +20,8 @@ body {
 }
 
 .content {
-    width: 500px;
+    max-width: 500px;
+    /* mrks goated */
 }
 
 .petition {
@@ -49,7 +50,7 @@ body {
 }
 
 .petition img {
-    width: 500px;
+    max-width: 500px;
     height: 80vh;
 }
 
@@ -152,4 +153,16 @@ span {
     background-color: black;
     color: white;
     font-size:xx-large;
-} /* ovo je 70% ja 30% chatgpt */
+}
+
+.alert {
+    width: 100%;
+    background-color: #000000;
+    color: #f00;
+    text-align: center;
+    display: none;
+}
+.alert .msg {
+    font-family: 'F1Reg', Arial, sans-serif;
+    color:#f00;
+}
