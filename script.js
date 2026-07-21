@@ -1,4 +1,3 @@
-// test
 const MOCK_API_BASE_URL = "https://6a5e8dfb98d9f02aed79a955.mockapi.io/votes";
 const MOCK_API_ITEM_URL = `${MOCK_API_BASE_URL}/1`;
 const grbaBtn = document.querySelector('.grba');
