@@ -7,7 +7,7 @@
 }
 
 * {
-    background-color: #1b1a1a;
+    background-color: #000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 body {
     zoom: 0.77;
-    font-family: Arial, sans-serif;
+    font-family: 'F1Reg', Arial, sans-serif;
     color: white;
 }
 
@@ -166,3 +166,4 @@ span {
     font-family: 'F1Reg', Arial, sans-serif;
     color:#f00;
 }
+/*ovo je 90% ja 10% chatgpt */
