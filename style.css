@@ -21,7 +21,6 @@ body {
 
 .content {
     max-width: 500px;
-    /* mrks goated */
 }
 
 .petition {
@@ -154,7 +153,13 @@ span {
     color: white;
     font-size:xx-large;
 }
-
+.aleert {
+    text-align: center;
+    color: red;
+}
+.aleert .zatvoreno {
+    color: #f00;
+}
 .alert {
     width: 100%;
     background-color: #000000;
@@ -166,4 +171,3 @@ span {
     font-family: 'F1Reg', Arial, sans-serif;
     color:#f00;
 }
-/*ovo je 90% ja 10% chatgpt */
